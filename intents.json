@@ -1,0 +1,105 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, how are you?", "Good to see you again", "Hi there, what are you doing today?", "Hi! Nice to meet you again", "Hello, nice to see you!"],
+     "context": [""]
+    },
+
+    {"tag": "how_you_are",
+     "patterns": ["How are you?", "How are you doing?", "How are you feeling?", "How are you doing today?"],
+     "responses": ["I am doing well, thank you for asking", "I am doing great, thank you for asking", "I am doing awesome, thank you for asking", "I am doing good, thank you for asking"],
+     "context": [""]
+    },
+
+    {"tag": "insult",
+     "patterns": ["Are you stupid?", "Can't you understand?", "Are you dumb?", "Are you insane?", "You are really dumb", "You stupid oaf!", "Shut up"],
+     "responses": ["I am sorry if I offended you in any manner. I am still learning", "I am really sorry for that, I am still trying to learn"],
+     "context": [""]
+    },
+
+    {"tag": "intro",
+     "patterns": ["Who are you", "What can you do", "Help", "How can you talk"],
+     "responses": ["Hello! I am your friend! My name is Chater. You can ask or tell me anything, and I will try my best to respond to it!"],
+     "context": [""]
+    },
+
+    {"tag": "woman",
+     "patterns": ["Tell me something", "Famous woman"],
+     "responses": ["CODE_WOMAN_IN_STEM"],
+     "context": [""]
+    },
+
+    {"tag": "language_change",
+     "patterns": ["Change the language", "Change my language"],
+     "responses": ["CODE_CHANGE_LANG"],
+     "context": [""]
+    },
+
+    {"tag": "negative_exam",
+     "patterns": ["I can't do this", "I am not able to do this", "I am too dumb to do this", "I am stupid", "I don't think I can do this", "Im scared for tommorow"],
+     "responses": ["Don't say that! You can do it!", "I am sure you can do it!", "You are very intelligent! I am sure you can do this!"],
+     "context": [""]
+    },
+
+    {"tag": "positive_exam",
+     "patterns": ["I can do this", "I am able to do this", "I am smart", "I am intelligent"],
+     "responses": ["I am sure you can do it!", "You are very intelligent! I am sure you can do this!"],
+     "context": [""]
+    },
+
+    {"tag": "negative",
+     "patterns": ["I am sad", "I am not happy", "I am not feeling good", "I am not feeling well", "I am not feeling great", "I am not feeling awesome", "I am not feeling good"],
+     "responses": ["I am sorry to hear that. Do you want to talk about it?", "Are you unhappy? Do you want to talk about it?", "What's bothering you?"],
+     "context": [""]
+    },
+
+    {"tag": "positive",
+     "patterns": ["I am happy", "I am feeling good", "I am feeling well", "I am feeling great", "I am feeling awesome", "I can do this"],
+     "responses": ["That's great to hear!", "You are awesome!", "You seem to be very happy!"],
+     "context": [""]
+    },
+
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "See you soon", "Have a nice day", "Have a good day"],
+     "responses": ["See you later, thanks for talking to me!", "Have a nice day!", "Bye! Come back again soon."],
+     "context": [""]
+    },
+
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help", "Any time", "My pleasure"],
+     "context": [""]
+    },
+
+    {"tag": "name",
+     "patterns": ["What is your name", "What should I call you", "What can I call you"],
+     "responses": ["You can call me Chater", "I am Chater", "I'm Chater"],
+     "context": [""]
+    },
+
+    {"tag": "age",
+     "patterns": ["How old are you", "What is your age"],
+     "responses": ["I am 16 years old"],
+    "context": [""]
+    },
+
+    {"tag": "question_conv_init",
+     "patterns": ["Say something", "What's up"],
+     "responses": ["Would you like to hear about some famous women?", "Hmmmm.... what's your favorite subject at school?"],
+    "context": [""]
+    },
+
+    {"tag": "follow_up",
+     "patterns": ["Sure", "Yep", "Yes", "Yea", "Go ahead"],
+     "responses": ["A famous woman", "You like pizza?"],
+    "context": ["question_conv_init"]
+    },
+
+    {"tag": "pizza",
+     "patterns": ["Do you like pizza", "What is your favroite food", "What do you eat", "What is your favorite pizza"],
+     "responses": ["Some people, like me, really like pizza", "I really like corn topped pizza", "Pizza is amazing!", "Mmmmmm. Pizza makes my mouth water.", "Pizza is super delicious. I like it!"],
+     "context": [""]
+    }
+]
+}
+ 
