@@ -19,12 +19,12 @@
 
     {"tag": "intro",
      "patterns": ["Who are you", "What can you do", "Help", "How can you talk"],
-     "responses": ["Hello! I am your friend! My name is Chater. You can ask or tell me anything, and I will try my best to respond to it!"],
+     "responses": ["Hello! I am your friend! My name is Gudiya. You can ask or tell me anything, and I will try my best to respond to it!"],
      "context": [""]
     },
 
     {"tag": "woman",
-     "patterns": ["Tell me something", "Famous woman"],
+     "patterns": ["Tell me something", "Can you tell me about a famous woman"],
      "responses": ["CODE_WOMAN_IN_STEM"],
      "context": [""]
     },
@@ -73,7 +73,7 @@
 
     {"tag": "name",
      "patterns": ["What is your name", "What should I call you", "What can I call you"],
-     "responses": ["You can call me Chater", "I am Chater", "I'm Chater"],
+     "responses": ["You can call me Gudiya", "I am Gudiya", "I'm Gudiya"],
      "context": [""]
     },
 
@@ -84,15 +84,9 @@
     },
 
     {"tag": "question_conv_init",
-     "patterns": ["Say something", "What's up"],
-     "responses": ["Would you like to hear about some famous women?", "Hmmmm.... what's your favorite subject at school?"],
+     "patterns": ["Say something", "whats up", "So what are you doing?", "I'm bored", "Do you have something to do?"],
+     "responses": ["CODE_WOMAN_IN_STEM", "CODE_FAV_SUBJECT"],
     "context": [""]
-    },
-
-    {"tag": "follow_up",
-     "patterns": ["Sure", "Yep", "Yes", "Yea", "Go ahead"],
-     "responses": ["A famous woman", "You like pizza?"],
-    "context": ["question_conv_init"]
     },
 
     {"tag": "pizza",
